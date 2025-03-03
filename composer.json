@@ -1,5 +1,5 @@
 {
-    "name": "php-middleware/php-debug-bar",
+    "name": "hkvstore/php-debug-bar",
     "description": "PHP Debug Bar PSR-15 middleware with PSR-7",
     "type": "library",
     "license": "MIT",
@@ -12,8 +12,8 @@
         "psr-11"
     ],
     "require": {
-        "php": "^7.3 || ^8.0",
-        "maximebf/debugbar": "^1.4",
+        "php": "^8.1",
+        "php-debugbar/php-debugbar": "^2.1.6",
         "psr/http-server-handler": "^1.0",
         "psr/http-server-middleware": "^1.0",
         "psr/container-implementation": "^1.0 || ^2.0",
